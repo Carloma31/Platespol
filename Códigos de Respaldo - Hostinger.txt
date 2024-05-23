@@ -12,3 +12,10 @@ N1UV RIAS YUEX
 Email
 info@platespol.com
 AtDg2024$
+
+
+TOKEN GITHUB
+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
+
+GITHUB SSH
+1234
