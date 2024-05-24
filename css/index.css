@@ -174,7 +174,7 @@ section {
 
 .cuerpos {
     background-color: var(--color-light-grey);
-    background-image: url('//45degreee_fabric.webp');
+    background-image: url('img/45degreee_fabric.webp');
     display: flex;
     overflow: hidden;
     height: 70vh;
