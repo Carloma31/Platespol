@@ -1,0 +1,82 @@
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .header-container {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 10%;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .header-container h1 {
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .navegador {
+        flex-direction: column;
+        gap: 10px;
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .cuerpos {
+        flex-direction: column;
+        height: auto;
+        gap: 20px;
+        padding: 10px;
+    }
+
+    .cuerpos img {
+        width: 100%;
+        height: auto;
+    }
+
+    #blog-news ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    #blog-news li {
+        flex-direction: column;
+    }
+
+    #blog-news li img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .contact-container {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contact-form,
+    .contact-info {
+        width: 90%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-center {
+        margin: 20px 0;
+    }
+
+    .footer-left,
+    .footer-right {
+        margin: 0;
+    }
+}

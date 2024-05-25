@@ -1,0 +1,48 @@
+/* NAV */
+nav {
+    height: 8%;
+    display: flex;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    align-items: center; /* Alinear verticalmente */
+    justify-content: space-between; /* Espacio entre los contenedores */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.navegador {
+    list-style: none;
+    display: flex;
+    gap: 30px; /* Espacio entre los elementos del menú */
+    margin-right: 20%; /* Margen derecho igual al margen izquierdo del contenedor del logo */
+}
+
+/* Estilo destacado para el Login */
+.login-link {
+    background-color: var(--color-light-yellow);
+    color: var(--color-blue);
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.login-link:hover {
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    font-variant: small-caps;
+    color: var(--color-white);
+    transition: color 0.3s, border-color 0.3s;
+    
+}
+
+nav a:hover {
+    color: var(--color-light-yellow);
+}
