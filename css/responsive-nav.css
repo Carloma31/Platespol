@@ -1,0 +1,61 @@
+/* Ocultar menú y botón en pantallas grandes */
+.menu-toggle {
+    display: none;
+}
+
+/* Mostrar menú desplegable en pantallas pequeñas */
+@media (max-width: 768px) {
+    .navegador {
+        display: none; /* Ocultar el menú por defecto */
+        flex-direction: column;
+        width: 100%;
+        position: absolute;
+        top: 60px; /* Ajustar la posición para que no cubra la cabecera */
+        left: 0;
+        background-color: var(--color-blue);
+        align-items: center; /* Centrar los elementos del menú */
+        padding: 0; /* Remover padding para evitar desbordamiento */
+    }
+
+    .navegador.active {
+        display: flex; /* Mostrar el menú cuando está activo */
+    }
+
+    .menu-toggle {
+        display: block;
+        background: none;
+        border: none;
+        color: var(--color-white);
+        font-size: 24px;
+        cursor: pointer;
+        position: absolute;
+        top: 18px; /* Alinearlo verticalmente con el contenido del nav */
+        right: 20px; /* Alinearlo a la derecha */
+    }
+
+    .header-container {
+        display: flex;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .header-container .logo {
+        max-height: 50px; /* Ajustar el tamaño del logo para pantallas pequeñas */
+        height: auto;
+    }
+    
+    .navegador li {
+        width: 100%; /* Hacer que cada elemento del menú ocupe el 100% del ancho */
+        text-align: center; /* Centrar el texto de los elementos del menú */
+    }
+    
+    .navegador a {
+        display: block; /* Hacer que los enlaces ocupen todo el ancho del elemento */
+        padding: 10px 0; /* Añadir padding para un mejor aspecto */
+    }
+    
+    .login-link {
+        margin-top: 10px; /* Añadir margen superior para separación */
+        border-radius: 0px;
+    }
+}

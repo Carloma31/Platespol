@@ -7,7 +7,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-weight: bold;
-    margin-top: 10rem;
+    margin-top: 9rem;
     padding: 20px;
     box-shadow: 0 -5px 6px rgba(0, 0, 0, 0.3);
 }
@@ -57,4 +57,9 @@ footer a:hover {
 .footer-left {
     margin-left: 100px;
     gap: 100px;
+}
+
+/* Añadir clase spacer para los separadores */
+.spacer {
+    margin: 0 10px; /* Añadir margen horizontal para separación */
 }

@@ -2,24 +2,25 @@
 .cuerpos-titulo {
     width: 100%;
     margin-top: 9rem;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
-.cuerpos-titulo h2 {
+.cuerpos-titulo h3 {
     padding-top: 30px;
     text-align: center;
     background-color: var(--color-light-grey);
-    background-image: url('/img/45degreee_fabric.webp');
+    background-image: url('/img/4907157.jpg');
     color: var(--color-blue);
     font-variant: small-caps;
     font-style: italic;
-    font-size: 32px;
-    text-shadow: 4px 4px 4px rgba(255, 255, 255, 1);
+    font-size: 28px;
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
     letter-spacing: 2px;
 }
 
 .cuerpos {
     background-color: var(--color-light-grey);
-    background-image: url('/img/45degreee_fabric.webp');
+    background-image: url('/img/4907157.jpg');
     display: flex;
     overflow: hidden;
     height: 70vh;
@@ -57,15 +58,36 @@
 
 
 
+/* Contenedores */
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+.container2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1800px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+
+
+
 /* SECTION-BLOG-NEWS */
 #blog-news {
     background-color: var(--color-light-grey);
-    background-image: url('/img/45degreee_fabric.webp');
-    padding: 0 15px 50px 15px;
+    background-image: url('/img/4907157.jpg');
+    padding: 0 40px 50px 40px;
     gap: 10px;
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
     margin-top: 10rem;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 220px;
 }
 
 #blog-news h2 {
@@ -76,7 +98,7 @@
     font-variant: small-caps;
     font-style: italic;
     font-size: 32px;
-    text-shadow: 4px 4px 4px rgba(255, 255, 255, 1);
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
     letter-spacing: 2px;
 }
 
@@ -106,13 +128,6 @@
     height: 70px;
     margin-right: 10px;
     border-radius: 5px;
-}
-
-#blog-news li div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: calc(100% - 80px); /* Asegurar que el contenido de texto no desborde el contenedor */
 }
 
 #blog-news li:hover {
@@ -153,11 +168,12 @@
 /* SECTION-WHO */
 #who {
     background-color: var(--color-light-grey);
-    background-image: url('/img/45degreee_fabric.webp');
-    padding: 15px;
+    background-image: url('/img/4907157.jpg');
+    padding: 0px 30px 20px 30px;
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
     margin-top: 10rem;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 80px;
 }
 
 #who h2 {
@@ -168,7 +184,7 @@
     font-variant: small-caps;
     font-style: italic;
     font-size: 32px;
-    text-shadow: 4px 4px 4px rgba(255, 255, 255, 1);
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
     letter-spacing: 2px;
 }
 
@@ -182,6 +198,10 @@
 #who p, #who ul {
     margin: 10px 0;
     font-size: 15px;
+}
+
+#who p {
+    font-weight: bold;
 }
 
 #who .who-text {
@@ -235,11 +255,11 @@
 /* SECTION-CONTACTO */
 #contacto {
     margin-top: 10rem;
-    padding: 20px;
+    padding: 0px 0px 10px 0px;
     background-color: var(--color-light-grey);
-    background-image: url('/img/45degreee_fabric.webp');
-    border-radius: 8px;
+    background-image: url('/img/4907157.jpg');
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 140px;
 }
 
 #contacto h2 {
@@ -250,7 +270,7 @@
     font-variant: small-caps;
     font-style: italic;
     font-size: 32px;
-    text-shadow: 4px 4px 4px rgba(255, 255, 255, 1);
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
     letter-spacing: 2px;
 }
 
@@ -338,16 +358,22 @@
 }
 
 .contact-info a img {
-    width: 200px;
+    width: 100px;
     height: auto;
 }
 
+.contact-info-text {
+    text-align: center;
+}
+
 .contact-info-logo {
-    margin-top: 50px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center; /* Centrar los iconos horizontalmente */
+    gap: 40px; /* Añadir espacio entre los iconos */
 }
 
 .contact-info-logo a img {
     width: 50px;
     height: auto;
-    margin-right: 20px;
 }
