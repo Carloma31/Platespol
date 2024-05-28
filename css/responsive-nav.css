@@ -40,7 +40,7 @@
     }
 
     .header-container .logo {
-        max-height: 50px; /* Ajustar el tamaño del logo para pantallas pequeñas */
+        max-height: 45px; /* Ajustar el tamaño del logo para pantallas pequeñas */
         height: auto;
     }
     
@@ -51,11 +51,11 @@
     
     .navegador a {
         display: block; /* Hacer que los enlaces ocupen todo el ancho del elemento */
-        padding: 10px 0; /* Añadir padding para un mejor aspecto */
+        margin-top: 5px;
     }
     
     .login-link {
-        margin-top: 10px; /* Añadir margen superior para separación */
-        border-radius: 0px;
+        margin-bottom: 5px;
+        border-radius: 5px;
     }
 }

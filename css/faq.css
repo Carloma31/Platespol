@@ -3,7 +3,7 @@
     padding: 30px 40px;
     background-color: var(--color-light-grey);
     background-image: url('/img/4907157.jpg');
-    margin-top: 6rem;
+    margin-top: 8rem;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
 }

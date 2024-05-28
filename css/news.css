@@ -1,0 +1,111 @@
+/* SECTION-BLOG-NEWS */
+#blog-news {
+    margin-top: 90px;
+    margin-bottom: -124px;
+    background-color: var(--color-light-grey);
+    background-image: url('/img/4907157.jpg');
+    padding: 0 40px 50px 40px;
+    gap: 10px;
+    overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+#blog-news h2 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: var(--color-blue);
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 32px;
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
+    letter-spacing: 2px;
+}
+
+#blog-news ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#blog-news li {
+    display: flex;
+    background-color: var(--color-white);
+    background-image: url('/img/so-white.png');
+    padding: 10px;
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    transition: transform 0.3s ease-in-out, background-color 0.3s;
+    flex: 1;
+}
+
+#blog-news li img {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+#blog-news li:hover {
+    transform: translateY(-5px); /* Efecto de elevación */
+}
+
+#blog-news a {
+    display: flex;
+    text-decoration: none;
+    color: var(--color-blue);
+    font-weight: bold;
+    width: 100%;
+}
+
+#blog-news a:hover {
+    color: var(--color-black); /* Cambiar color de texto al pasar el ratón */
+}
+
+#blog-news h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+#blog-news p {
+    font-size: 13px;
+    margin: 5px 0 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Mostrar un máximo de 3 líneas */
+    -webkit-box-orient: vertical;
+    max-height: 3.6em; /* Limitar la altura a tres líneas de texto */
+}
+
+/* Pagination */
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+#pagination button {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+#pagination button:hover {
+    background-color: var(--color-light-blue);
+}
+
+#pagination button:disabled {
+    background-color: var(--color-light-grey);
+    color: var(--color-blue);
+    cursor: not-allowed;
+}
