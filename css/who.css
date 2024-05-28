@@ -1,0 +1,83 @@
+/* SECTION-WHO */
+#who {
+    background-color: var(--color-light-grey);
+    background-image: url('/img/4907157.jpg');
+    padding: 0px 30px 20px 30px;
+    overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
+    margin-top: 10rem;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
+    scroll-margin-top: 80px;
+}
+
+#who h2 {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
+    color: var(--color-blue);
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 32px;
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
+    letter-spacing: 2px;
+}
+
+#who h3 {
+    color: var(--color-blue);
+    margin-top: 45px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+#who p, #who ul {
+    margin: 10px 0;
+    font-size: 15px;
+}
+
+#who p {
+    font-weight: bold;
+}
+
+#who .who-text {
+    background-color: var(--color-white);
+    background-image: url('/img/so-white.png');
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+}
+
+#who .who-text h3 {
+    padding: 10px 0 0 15px;
+}
+
+#who .who-text ul {
+    padding: 0 0 10px 35px;
+}
+
+#who .who-text p {
+    padding: 0 0 10px 15px;
+}
+
+#who ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#who .join-community {
+    background-color: var(--color-white);
+    background-image: url('/img/so-white.png');
+    text-align: center;
+    color: var(--color-black);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 35px;
+    margin-bottom: 30px;
+}
+
+#who .join-community h3 {
+    font-size: 20px;
+    margin: 0 0 10px 0;
+}
+
+#who .join-community p {
+    margin: 0;
+    font-size: 15px;
+}

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Platespol - Plataforma de preparación para oposiciones policiales. Accede a tests, simulacros y noticias actualizadas para tu preparación.">
+    <title>Platespol</title>
+    <!-- Estilos Generales -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <!-- Estilos General Responsivos-->
+    <link rel="stylesheet" href="../css/responsive-nav.css">
+    <link rel="stylesheet" href="../css/responsive-footer.css">
+    <!-- Estilos del Index-->
+    <link rel="stylesheet" href="../css/contact.css">
+    <!-- Estilos del Index Responsivos-->
+    <link rel="stylesheet" href="../css/responsive-contact.css">
+</head>
+
+<body>
+    <nav>
+        <div class="header-container">
+            <a href="index.html"><img src="../img/pcanaria.png" alt="Logo de Platespol" class="logo">
+                <h1>Platespol</h1>
+                <p>&copy;</p>
+            </a>
+        </div>
+        <button class="menu-toggle" aria-label="Toggle navigation">
+            ☰
+        </button>
+        <ul class="navegador">
+            <li><a href="../pages/index.html">Inicio</a></li>
+            <li><a href="../pages/news.html">Noticias</a></li>
+            <li><a href="../pages/who.html">Quiénes Somos</a></li>
+            <li><a href="../pages/contact.html">Contacto</a></li>
+            <li><a href="../pages/faq.html">FAQ</a></li>
+            <li><a href="../pages/oposiciones.html">Oposiciones</a></li>
+            <li><a href="../pages/login.html" class="login-link">Login</a></li>
+        </ul>
+    </nav>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <div class="container1">
+            <div class="contact-container">
+                <form class="contact-form">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="comentario">Comentario:</label>
+                    <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+                    <div>
+                        <button type="submit">Enviar</button>
+                        <button type="reset">Limpiar</button>
+                    </div>
+                </form>
+                <div class="contact-info">
+                    <a href="index.html"><img src="../img/pcanaria.png" alt="Logo de Platespol" class="logo"></a>
+                    <div class="contact-info-text">
+                        <h3>Datos de Contacto</h3>
+                        <p><strong>Web:</strong> www.platespol.com</p>
+                        <p><strong>Email:</strong> info@platespol.com</p>
+                        <p><strong>Teléfono:</strong> +34 123 456 789</p>
+                        <p><strong>Dirección:</strong> Plaza de la Paz, 15<br>38008 Santa Cruz de Tenerife
+                            (Tenerife)<br>España</p>
+                        <p><strong>Horario de Atención:</strong> Lunes a Viernes, 16:00-20:00</p>
+                    </div>
+                    <div class="contact-info-logo">
+                        <a href="#" class="facebook-icon"><img src="../img/facebook.png" alt="Facebook"></a>
+                        <a href="#" class="twitter-icon"><img src="../img/twitter.png" alt="Twitter"></a>
+                        <a href="#" class="instagram-icon"><img src="../img/instagram.png" alt="Instagram"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <ul class="footer-left"></ul>
+        <div class="footer-center">
+            <p>&copy; 2024 Platespol <span class="spacer">|</span></p>
+            <p>&copy; Todos los Derechos Reservados <span class="spacer">|</span></p>
+            <p><a href="#">Política de Privacidad</a> <span class="spacer">|</span></p>
+            <p><a href="#">Política de Cookies</a> <span class="spacer">|</span></p>
+            <p><a href="#">Aviso Legal</a></p>
+        </div>
+        <ul class="footer-right">
+            <a href="#" class="facebook-icon"><img src="../img/facebook.png" alt="Facebook"></a>
+            <a href="#" class="twitter-icon"><img src="../img/twitter.png" alt="Twitter"></a>
+            <a href="#" class="instagram-icon"><img src="../img/instagram.png" alt="Instagram"></a>
+        </ul>
+    </footer>
+
+    <!-- Script JS del Menú Toggle-->
+    <script src="../script/toggle.js"></script>
+</body>
+
+</html>

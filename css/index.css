@@ -58,26 +58,6 @@
 
 
 
-/* Contenedores */
-.container1 {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
-}
-
-.container2 {
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 15px;
-    padding-right: 15px;
-    max-width: 1800px; /* Puedes ajustar este valor según tus necesidades */
-}
-
-
-
-
 /* SECTION-BLOG-NEWS */
 #blog-news {
     background-color: var(--color-light-grey);

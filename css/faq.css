@@ -1,0 +1,39 @@
+/* Estilos para la sección FAQ */
+#faq {
+    padding: 30px 40px;
+    background-color: var(--color-light-grey);
+    background-image: url('/img/4907157.jpg');
+    margin-top: 6rem;
+    box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
+}
+
+#faq h2 {
+    padding-top: 10px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: var(--color-blue);
+    font-variant: small-caps;
+    font-style: italic;
+    font-size: 32px;
+    text-shadow: 4px 4px 4px var(--color-light-grey, 5);
+    letter-spacing: 2px;
+}
+
+.faq-item {
+    margin-bottom: 20px;
+}
+
+.faq-item h3 {
+    color: var(--color-blue);
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 1px solid var(--color-blue); /* Añadir línea fina debajo de cada h3 */
+    padding-bottom: 5px; /* Añadir un poco de padding para separar la línea del texto */
+}
+
+.faq-item p {
+    font-size: 16px;
+    color: var(--color-black);
+    margin-bottom: 40px;
+}

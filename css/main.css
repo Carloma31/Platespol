@@ -66,3 +66,20 @@ body {
     background-color: var(--color-white);
     background-image: url('/img/so-white.png');
 }
+
+/* Contenedores */
+.container1 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1200px; /* Puedes ajustar este valor según tus necesidades */
+}
+
+.container2 {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    max-width: 1800px; /* Puedes ajustar este valor según tus necesidades */
+}

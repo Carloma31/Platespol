@@ -34,6 +34,8 @@ nav {
 }
 
 nav a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     font-weight: bold;
     font-size: 16px;
