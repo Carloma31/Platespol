@@ -15,6 +15,7 @@ nav {
 .navegador {
     list-style: none;
     display: flex;
+    align-items: center;
     gap: 30px; /* Espacio entre los elementos del menú */
     margin-right: 20%; /* Margen derecho igual al margen izquierdo del contenedor del logo */
 }
@@ -41,8 +42,7 @@ nav a {
     font-size: 16px;
     font-variant: small-caps;
     color: var(--color-white);
-    transition: color 0.3s, border-color 0.3s;
-    
+    transition: color 0.3s, border-color 0.3s;    
 }
 
 nav a:hover {
