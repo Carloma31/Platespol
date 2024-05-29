@@ -9,7 +9,7 @@
     padding-top: 30px;
     text-align: center;
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
     color: var(--color-blue);
@@ -22,7 +22,7 @@
 
 .cuerpos {
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
     display: flex;
