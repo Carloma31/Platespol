@@ -10,6 +10,8 @@
     text-align: center;
     background-color: var(--color-light-grey);
     background-image: url('/img/4907157.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--color-blue);
     font-variant: small-caps;
     font-style: italic;
@@ -21,6 +23,8 @@
 .cuerpos {
     background-color: var(--color-light-grey);
     background-image: url('/img/4907157.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     display: flex;
     overflow: hidden;
     height: 70vh;
@@ -61,7 +65,9 @@
 /* SECTION-BLOG-NEWS */
 #blog-news {
     background-color: var(--color-light-grey);
-    background-image: url('./img/4907157.jpg');
+    background-image: url('/img/4907157.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     padding: 0 40px 50px 40px;
     gap: 10px;
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
@@ -149,6 +155,8 @@
 #who {
     background-color: var(--color-light-grey);
     background-image: url('/img/4907157.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     padding: 0px 30px 20px 30px;
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
     margin-top: 10rem;

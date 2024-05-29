@@ -1,5 +1,5 @@
-/* Estilos para la sección FAQ */
-#faq {
+/* Estilos para la sección Cookies */
+#cookies {
     padding: 30px 40px;
     background-color: var(--color-light-grey);
     background-image: url('/img/4907157.jpg');
@@ -10,7 +10,7 @@
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
 }
 
-#faq h2 {
+#cookies h2 {
     padding-top: 10px;
     padding-bottom: 50px;
     text-align: center;
@@ -22,11 +22,11 @@
     letter-spacing: 2px;
 }
 
-.faq-item {
+.cookies-item {
     margin-bottom: 20px;
 }
 
-.faq-item h3 {
+.cookies-item h3 {
     color: var(--color-blue);
     font-size: 20px;
     margin-bottom: 10px;
@@ -34,8 +34,18 @@
     padding-bottom: 5px; /* Añadir un poco de padding para separar la línea del texto */
 }
 
-.faq-item p {
+.cookies-item p,
+.cookies-item ul {
     font-size: 16px;
     color: var(--color-black);
     margin-bottom: 40px;
+}
+
+.cookies-item ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.cookies-item ul li {
+    margin-bottom: 10px;
 }
