@@ -4,7 +4,7 @@
     margin-bottom: -128px;
     padding: 0px 0px 5px 0px;
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -48,7 +48,7 @@
     flex: 2; /* Hacer que el formulario ocupe más espacio */
     padding: 40px;
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
     min-width: 300px; /* Ancho mínimo para pantallas pequeñas */
@@ -96,7 +96,7 @@
     flex: 1; /* Hacer que la sección de información ocupe menos espacio */
     padding: 40px;
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
     display: flex;

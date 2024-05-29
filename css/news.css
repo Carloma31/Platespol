@@ -3,7 +3,7 @@
     margin-top: 90px;
     margin-bottom: -124px;
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     padding: 0 40px 50px 40px;
     gap: 10px;
     overflow: hidden; /* Asegurar que el contenido adicional no cause desbordamiento */
@@ -35,7 +35,7 @@
 #blog-news li {
     display: flex;
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     padding: 10px;
     border-radius: 5px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */

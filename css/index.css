@@ -65,7 +65,7 @@
 /* SECTION-BLOG-NEWS */
 #blog-news {
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding: 0 40px 50px 40px;
@@ -101,7 +101,7 @@
 #blog-news li {
     display: flex;
     background-color: var(--color-white);
-    background-image: url('./img/so-white.png');
+    background-image: url('../img/so-white.png');
     padding: 10px;
     border-radius: 5px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -154,7 +154,7 @@
 /* SECTION-WHO */
 #who {
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
     padding: 0px 30px 20px 30px;
@@ -194,7 +194,7 @@
 
 #who .who-text {
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     border-radius: 5px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
@@ -218,7 +218,7 @@
 
 #who .join-community {
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     text-align: center;
     color: var(--color-black);
     padding: 20px;
@@ -245,7 +245,7 @@
     margin-top: 10rem;
     padding: 0px 0px 10px 0px;
     background-color: var(--color-light-grey);
-    background-image: url('/img/4907157.jpg');
+    background-image: url('../img/4907157.jpg');
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
     scroll-margin-top: 140px;
 }
@@ -289,7 +289,7 @@
     width: 45%;
     padding: 40px;
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
 }
@@ -336,7 +336,7 @@
     width: 20%;
     padding: 40px;
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('../img/so-white.png');
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
     display: flex;
