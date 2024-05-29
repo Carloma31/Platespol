@@ -64,7 +64,7 @@ html {
 /* Body */
 body {
     background-color: var(--color-white);
-    background-image: url('/img/so-white.png');
+    background-image: url('./img/so-white.png');
 }
 
 /* Contenedores */
