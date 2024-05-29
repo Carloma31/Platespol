@@ -8,7 +8,6 @@
 .cuerpos-titulo h3 {
     padding-top: 30px;
     text-align: center;
-    background-color: var(--color-light-grey);
     background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -21,7 +20,6 @@
 }
 
 .cuerpos {
-    background-color: var(--color-light-grey);
     background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -64,7 +62,6 @@
 
 /* SECTION-BLOG-NEWS */
 #blog-news {
-    background-color: var(--color-light-grey);
     background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -100,7 +97,6 @@
 
 #blog-news li {
     display: flex;
-    background-color: var(--color-white);
     background-image: url('../img/so-white.png');
     padding: 10px;
     border-radius: 5px; /* Bordes redondeados */
@@ -153,7 +149,6 @@
 
 /* SECTION-WHO */
 #who {
-    background-color: var(--color-light-grey);
     background-image: url('../img/4907157.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -193,7 +188,6 @@
 }
 
 #who .who-text {
-    background-color: var(--color-white);
     background-image: url('../img/so-white.png');
     border-radius: 5px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -217,7 +211,6 @@
 }
 
 #who .join-community {
-    background-color: var(--color-white);
     background-image: url('../img/so-white.png');
     text-align: center;
     color: var(--color-black);
@@ -244,8 +237,9 @@
 #contacto {
     margin-top: 10rem;
     padding: 0px 0px 10px 0px;
-    background-color: var(--color-light-grey);
     background-image: url('../img/4907157.jpg');
+    background-size: cover;
+    background-attachment: fixed;
     box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.1), 0 4px 15px rgba(0, 0, 0, 0.1);
     scroll-margin-top: 140px;
 }
@@ -288,7 +282,6 @@
 .contact-form{
     width: 45%;
     padding: 40px;
-    background-color: var(--color-white);
     background-image: url('../img/so-white.png');
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
@@ -335,7 +328,6 @@
 .contact-info {
     width: 20%;
     padding: 40px;
-    background-color: var(--color-white);
     background-image: url('../img/so-white.png');
     border-radius: 8px; /* Bordes redondeados */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
