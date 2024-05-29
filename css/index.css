@@ -256,7 +256,7 @@
 
 #contacto h3 {
     color: var(--color-blue);
-    margin-top: 35px;
+    margin-top: 10px;
     margin-bottom: 10px;
     font-size: 20px;
     font-variant: small-caps;
@@ -338,7 +338,7 @@
 }
 
 .contact-info a img {
-    width: 100px;
+    width: 130px;
     height: auto;
 }
 
@@ -347,13 +347,13 @@
 }
 
 .contact-info-logo {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: center; /* Centrar los iconos horizontalmente */
-    gap: 40px; /* Añadir espacio entre los iconos */
+    gap: 30px; /* Añadir espacio entre los iconos */
 }
 
 .contact-info-logo a img {
-    width: 50px;
+    width: 40px;
     height: auto;
 }
