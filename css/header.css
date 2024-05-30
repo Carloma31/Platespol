@@ -7,6 +7,7 @@
 
 .logo {
     height: 60px;
+    margin-left:10px; /*Version movil se pega a la izquierda del todo,le asigno un margin-left*/
     margin-right: 10px; /* Espacio entre el logo y el título */
 }
 

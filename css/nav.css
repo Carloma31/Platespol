@@ -18,6 +18,15 @@ nav {
     align-items: center;
     gap: 30px; /* Espacio entre los elementos del menú */
     margin-right: 20%; /* Margen derecho igual al margen izquierdo del contenedor del logo */
+
+    /*
+    * Se añade porque "Platespol" y "Inicio" se pegaban en ciertos tamaños
+    */
+    margin-left: 30px; 
+}
+
+.navegador li{
+    justify-content: center;
 }
 
 /* Estilo destacado para el Login */
