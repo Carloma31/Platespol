@@ -56,7 +56,6 @@
     }
 
     .header-container {
-        display: flex;
         align-items: center;
         margin-left: 0;
     }
@@ -67,7 +66,7 @@
         margin-right: 10px;
     }
     
-    .navegador li {
+    .navegador li::active {
         width: 100%; /* Hacer que cada elemento del menú ocupe el 100% del ancho */
         text-align: center; /* Centrar el texto de los elementos del menú */
     }
