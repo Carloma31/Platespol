@@ -30,7 +30,7 @@
         flex-direction: column;
         width: 100%;
         position: absolute;
-        top: 50px; /* Ajustar la posición para que no cubra la cabecera */
+        top: 60px; /* Ajustar la posición para que no cubra la cabecera */
         left: 0;
         background-color: var(--color-blue);
         align-items: center; /* Centrar los elementos del menú */
